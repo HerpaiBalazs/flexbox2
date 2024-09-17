@@ -1,0 +1,103 @@
+
+.cont{
+    margin-top:200px;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    width:800px;
+    height:300px;
+    background-color: yellow;
+    
+}
+
+.zold{
+    background-color: green;
+    width:100px;
+    height:100px;
+    display: none;
+   }
+   .sarga{
+    background-color: yellow;
+    width:100px;
+    height:100px;
+    display: none;
+   }
+   .lila{
+    background-color: purple;
+    width:100px;
+    height:100px;
+    flex-direction: row;
+ 
+   }
+   .cont2{
+    margin-top:200px;
+    display: flex;
+    align-items:  center;
+    width:100%;
+    height:400px;
+    background-color: yellow;
+    flex-direction: row;
+   
+    justify-content: space-between;
+    justify-content: flex-start;
+}
+.elem2{
+    width:100px;
+    height: 100px;
+    background-color: purple;
+    list-style: none;
+    margin: 5px;
+    
+    
+
+}
+.cont3{
+    margin-top:200px;
+    display: flex;
+    align-items:  center;
+    width:100%;
+    height:400px;
+    background-color: yellow;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-evenly;
+
+    
+    
+}
+.elem3{
+
+    justify-content: flex-start;
+    align-content: space-evenly;
+    width:100px;
+    height: 100px;
+    background-color: purple;
+    list-style: none;
+
+
+}
+.cont4{
+    margin-top: 200px;
+    display: flex;
+    align-items:  flex-end;
+    width:100%;
+    height:400px;
+    background-color: yellow;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-evenly;
+
+    
+    
+}
+.elem4{
+    justify-content: flex-start;
+    align-content: space-evenly;
+    width:100px;
+    height: 100px;
+    margin: 3px;
+    background-color: purple;
+    list-style: none;
+
+
+}
